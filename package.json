@@ -1,0 +1,19 @@
+{
+  "name": "qualityproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chromedriver": "^142.0.3",
+    "jest": "^30.2.0",
+    "selenium-webdriver": "^4.38.0",
+    "undetected-chromedriver": "^0.0.1-security"
+  }
+}
