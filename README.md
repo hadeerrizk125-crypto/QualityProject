@@ -1,25 +1,29 @@
-# QualityProject
+# Software Quality Assurance & Automation Project 🧪
 
-This repository contains a small Node.js quality automation project.
+This repository demonstrates professional testing techniques, ranging from fundamental logic verification to complex end-to-end web automation. It serves as a showcase of quality standards in a Node.js environment.
 
-## Project Overview
+## 🛠 Tech Stack
+* **Testing Framework:** Jest (Unit Testing)
+* **Automation Tool:** Selenium WebDriver (E2E Testing)
+* **Runtime Environment:** Node.js
+* **Browser:** Google Chrome
 
-- `checkVowel.js` - function to determine whether a single character is a vowel.
-- `checkVowel.test.js` - Jest test suite for the vowel checker.
-- `checkvoweltest.js` - simple command-line validator that prints whether a provided character is a vowel or consonant.
-- `testAmazon.js` - Selenium WebDriver script that opens Amazon.com, searches for `iphone`, and verifies search results load.
+## 🔍 Project Overview & Features
+* **Unit Testing (Logic Verification):** Uses `checkVowel.test.js` to ensure the core logic of vowel detection is 100% accurate across various cases.
+* **E2E Automation (Web Testing):** A robust script (`testAmazon.js`) that simulates a real user journey: launching the browser, navigating to Amazon, performing a search for 'iphone', and verifying results.
+* **CLI Utility:** A command-line tool (`checkvoweltest.js`) for quick manual validation of characters.
 
-## Prerequisites
+## 🚀 Getting Started
 
-- Node.js installed
-- Chrome browser installed
-- `npm` available from the command line
+### Prerequisites
+- Node.js installed on your machine.
+- Chrome browser and matching Chromedriver.
 
-## Install
-
-```bash
-npm install
-```
+### Installation
+1. Clone the repository.
+2. Install dependencies (Note: `node_modules` are git-ignored to keep the repo clean):
+   ```bash
+   npm install
 
 ## Run the unit test
 
